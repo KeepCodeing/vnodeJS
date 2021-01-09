@@ -15,7 +15,7 @@
       </el-row>
     </el-card>
     <el-card>
-      <el-row v-for="(item, idx) in topic['replies']" style="margin: 15px" v-if="topic['replies'].length">
+      <el-row v-for="(item, idx) in topic['replies']" style="margin: 15px">
         <el-row>
           <el-col :span="2">{{item['author']['loginname']}}</el-col>
           <el-col :span="10">{{idx + 1}}楼 发布于{{item['create_at']}}</el-col>
@@ -26,7 +26,7 @@
           </el-col>
         </el-row>
       </el-row>
-      <el-row v-else>
+      <el-row v-if="!topic['replies'].length">
         <h2 style="text-align: center">没有回复</h2>
       </el-row>
     </el-card>
