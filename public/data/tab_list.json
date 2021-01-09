@@ -1,0 +1,9 @@
+{
+  "data": [
+    {"name":  "全部", "path":  "/all", "id":  201},
+    {"name":  "精华", "path":  "/good", "id":  202},
+    {"name":  "分享", "path":  "/share", "id":  203},
+    {"name":  "问答", "path":  "/ask", "id":  204},
+    {"name":  "招聘", "path":  "/job", "id":  205}
+  ]
+}

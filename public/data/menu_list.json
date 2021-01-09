@@ -1,0 +1,6 @@
+{
+  "data": [
+    {"path":  "/home", "name": "首页", "id":  101},
+    {"path":  "/about", "name": "关于", "id":  102}
+  ]
+}
